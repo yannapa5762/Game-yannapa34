@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: #f0f8ff; /* สีพื้นหลังที่อ่อนนุ่ม */
+    color: #333; /* สีตัวอักษรทั่วไปที่เข้มพอสมควร */
+    font-family: 'Arial', sans-serif; /* ฟอนต์ที่เรียบง่ายและดูเป็นมิตร */
+}
+
+#board {
+    background-color: #ffe4e1; /* สีชมพูพาสเทลที่ดูนุ่มนวล */
+    border-bottom: 20px solid #ffb6c1; /* สีชมพูพาสเทลที่สดใส */
+    color: #ff69b4; /* สีฟอนต์เป็นชมพูพาสเทล */
+}
+
+button {
+    width: 160px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: #ffb6c1; /* สีชมพูพาสเทล */
+    font-family: 'Arial', sans-serif; /* ฟอนต์ที่เรียบง่ายและน่ารัก */
+    border: none;
+    border-radius: 10px;
+    color: #fff; /* สีตัวอักษรปุ่มเป็นสีขาว */
+}
+
+button:hover {
+    background-color: #ff69b4; /* สีชมพูพาสเทลที่เข้มขึ้นเมื่อ hover */
+    color: #fff; /* สีตัวอักษรปุ่มเป็นสีขาวเมื่อ hover */
+}
